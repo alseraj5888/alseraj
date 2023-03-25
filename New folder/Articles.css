@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*::selection {
+    background-color: #ffc7e3;
+}
+
+
+/*rgb(59, 26, 81)   rgb(32, 28, 82)
+    background-image: linear-gradient(to right, #6c27a5, #5447b9 ) ;
+
+*/
+
+header {
+    background-image: linear-gradient(to left, rgb(84, 71, 185), rgb(14, 135, 248));
+    width: 114.8%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo {
+    color: rgb(32, 25, 25);
+    text-decoration: none;
+    font-size: 1.7em;
+    font-weight: 500;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.95em;
+    margin-right: 30px;
+    padding-bottom: 5px;
+    transition: 0.5s ease;
+}
+
+.navigation a:hover {
+    color: #00ff00;
+}
+
+section {
+    padding: 120px 100px;
+}
+
+.main {
+    width: 150%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(im22.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    color: rgb(32, 28, 82);
+    background-color: rgba(255, 255, 255, 0.63);
+    text-decoration: none;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.50);
+    padding: 0.2em 0.4em;
+    border-radius: 10px;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.main-btn {
+    color: #fff;
+    background-image: linear-gradient(to left, #5447b9, #0e87f8);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.50);
+    text-decoration: none;
+    font-size: 1.1em;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-top: 60px;
+    transition: all 0.4s ease-out;
+}
+
+.main-btn:hover {
+    color: #fff;
+    background-image: linear-gradient(to left, #5447b9, #0e87f8);
+    transform: scale(1.1);
+}
+
+.main .social-icons a {
+    color: #fff;
+    font-size: 1.7em;
+    margin-left: 20px;
+    position: relative;
+    top: 20px;
+}
+.social-icons a :hover {
+    background:-moz-linear-gradient(to left, #5447b9, #0e87f8 ); 
+    background: -webkit-linear-gradient(to left, #5447b9, #0e87f8 ); 
+    background: linear-gradient(to left, #5447b9, #0e87f8 );
+    -webkit-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color:transparent;
+    transform: scale(1.3);
+    transition: 0.7s ease;
+ }
+
+ .text {
+    background: url(im23.jfif) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    padding-top: 80px;
+    padding: 250px;
+    font-size: 1.7em;
+}
+.text h1{
+    color: #1723c9;
+}
